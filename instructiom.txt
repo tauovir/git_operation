@@ -1,4 +1,16 @@
 This project is gooing to be created.
 There is no option to create model
 
+
+This code is written by khan Tools
+Hi am there
+=======
 # Master added new instaruct for file
+
+#===================His Toosl============
+do thsis line unstage=============
+do thsis line unstage==
+
+
+=================JAVA code addedd==========
+this line is going to be uncommited adn unstaged after commited command

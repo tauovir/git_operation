@@ -1,3 +1,15 @@
 User is going to be stored in database
 
+Memer is added
+=======
 Master created new organixarioj
+
+***********************Khan Tool*******************
+
+I am going to do this file unstage===========
+
+I am going to do this file unstage
+I am going to do this file unstage____________
+
+#=================Python code addedd==========
+this line is going to be uncommited adn unstaged after commited command
