@@ -2,6 +2,7 @@ This project is gooing to be created.
 There is no option to create model
 
 
+<<<<<<< HEAD
 #================= This changes from khan1 branch============
 pics and ideas for an essay. In this article, we will list out many good 
 essay topics from different categories like argumentative essays, 
@@ -9,3 +10,17 @@ essays on technology, environment essays for students from 5th, 6th,
  7th, 8th grades. Following list of essay topics are for 
 all – from kids to college students. We have the largest collection of
 New line added
+=======
+This code is written by khan Tools
+Hi am there
+=======
+# Master added new instaruct for file
+
+#===================His Toosl============
+do thsis line unstage=============
+do thsis line unstage==
+
+
+=================JAVA code addedd==========
+this line is going to be uncommited adn unstaged after commited command
+>>>>>>> d81967baa9b470faa058b510143036360df6dd06
