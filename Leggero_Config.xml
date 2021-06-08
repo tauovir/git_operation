@@ -1,8 +1,8 @@
 <Leggero>
    <DCEAPP>
        <host>localhost</host>
-       <username>postgres</username>
-       <pwd>khan123</pwd>
+       <username>postgres11111</username>
+       <pwd>khan123000000</pwd>
 <!--       <dbname>asi_crm_demo_26october_v1</dbname> -->
        <dbname>alteram_db</dbname>
        <schema>in_use</schema>
