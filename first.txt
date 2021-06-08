@@ -1,2 +1,0 @@
-This is my first nano file.
-This is going to be commited then removed.
