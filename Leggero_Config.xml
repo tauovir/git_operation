@@ -1,0 +1,216 @@
+<Leggero>
+   <DCEAPP>
+       <host>localhost</host>
+       <username>postgres</username>
+       <pwd>khan123</pwd>
+<!--       <dbname>asi_crm_demo_26october_v1</dbname> -->
+       <dbname>alteram_db</dbname>
+       <schema>in_use</schema>
+   </DCEAPP>
+
+
+    <NOTIFICATIONSERVER>
+        <host>localhost</host>
+        <port>5080</port>
+    </NOTIFICATIONSERVER>
+    <!--<CELERY>
+        <broker>redis://localhost:6379/0</broker>
+        <backend>redis://localhost:6379/0</backend>
+    </CELERY> -->
+    <MappingFiles>
+       <bizOrgMapFile>/home/nyalazone-01/Desktop/Projects/moses-dev/documents/Client_map_may2020.xlsx</bizOrgMapFile>
+       <errorFileDir>/home/nyalazone-01/Desktop/Projects/moses-dev/documents/job_load/</errorFileDir>
+   </MappingFiles>
+<!--   -->
+    <RAPTORSERVER>
+       <host>localhost</host>
+       <username>admin</username>
+       <pwd>toor</pwd>
+       <dbname>asi_crm_demo_test_raptor_23sep_v1</dbname>
+       <schema>leggero</schema>
+       <dbport>5002</dbport>
+       <whport>8082</whport>
+       <service_url>http://localhost:5002</service_url>
+   </RAPTORSERVER>
+    <RAPTORHOST>
+        <HOST>localhost</HOST>
+        <PORT>8080</PORT>
+    </RAPTORHOST>
+    <CommunicationManager>
+        <HOST>0.0.0.0</HOST>
+        <PORT>5001</PORT>
+    </CommunicationManager>
+    <DCEAPPSERVER>
+        <host>0.0.0.0</host>
+        <port>5011</port>
+        <angular_dir>/home/vasu/hlcapp/HLCAPP/appserver/hlc-app/dist/hlc-app</angular_dir>
+        <service_url>http://localhost:5011</service_url>
+    </DCEAPPSERVER>
+
+    <BUSINESSTIMERULES>
+        <workday_start>9</workday_start>
+        <workday_end>18</workday_end>
+        <working_days>0,1,2,3,4</working_days>
+        <lunch_start>18</lunch_start>
+        <lunch_end>19</lunch_end>
+        <timezone>Asia/Kolkata</timezone>
+        <apply_holidays>False</apply_holidays>
+        <use_sunday_rule>True</use_sunday_rule>
+    </BUSINESSTIMERULES>
+
+<!--    <MappingFiles>-->
+<!--       <bizOrgMapFile>/home/sudoer3/Documents/milan_projects/MOSES/asi-moses/MOSES/create_scripts/creation_data/Scope_and_Milestones_v7.xlsx</bizOrgMapFile>-->
+<!--   </MappingFiles>-->
+
+    <DCESERVER>
+        <host>0.0.0.0</host>
+        <port>5011</port>
+        <angular_dir>/home/vasu/hlcapp/HLCAPP/appserver/hlc-app/dist/hlc-app</angular_dir>
+        <service_url>http://localhost:5011</service_url>
+    </DCESERVER>
+
+    <FRONTENDSERVER>
+        <host>localhost</host>
+        <port>4200</port>
+        <angular_dir>/home/vasu/hlcapp/HLCAPP/appserver/hlc-app/dist/hlc-app</angular_dir>
+        <service_url>http://localhost:4200</service_url>
+    </FRONTENDSERVER>
+    <CLIENTFRONTENDSERVER>
+        <host>localhost</host>
+        <port>4201</port>
+        <angular_dir>/home/vasu/hlcapp/HLCAPP/appserver/hlc-app/dist/hlc-app</angular_dir>
+    </CLIENTFRONTENDSERVER>
+
+
+    <!--<CommunicationManager>
+        <RABBITMQ>redis://localhost:6379/0</RABBITMQ>
+    </CommunicationManager>-->
+    <CommunicationManager>
+        <HOST>0.0.0.0</HOST>
+        <PORT>7001</PORT>
+    </CommunicationManager>
+
+    <NOTIFICATIONSERVER>
+       <host>0.0.0.0</host>
+       <port>7002</port>
+       <service_url>http://localhost:7002</service_url>
+   </NOTIFICATIONSERVER>
+
+    <PROJECTPATHS>
+        <project_log>/home/nyalazone/ProjectRepo/Moses/moses_path/moses_log.txt</project_log>
+        <Documents>/home/nyalazone/ProjectRepo/Moses/moses_path/documents_path</Documents>
+        <DownloadServeDir>/home/nyalazone/ProjectRepo/Moses/moses_path/documents_path</DownloadServeDir>
+        <reportDir>/home/nyalazone-01/Desktop/Projects/moses-dev/reports</reportDir>
+        <reportConfigDir>/home/nyalazone/ProjectRepo/Moses/dce/DCE/Report_Generation</reportConfigDir>
+        <ganttPDFDir>/home/nyalazone-01/Desktop/test_fusuion/i_vari/</ganttPDFDir>
+        <docIP>http://localhost:5011</docIP>
+        <email_poll_log_dir>/home/sudoer3/Documents/milan_projects/MOSES/EmailPollLog/</email_poll_log_dir>
+        <product_email_log>/home/nyalazone/ProjectRepo/Moses/moses_path/product_email_log.txt</product_email_log>
+        <email_parsing_error_logname>/home/nyalazone/ProjectRepo/Moses/moses_path/email_parsing_log.txt</email_parsing_error_logname>
+        <email_poller_logname>/home/nyalazone/ProjectRepo/Moses/moses_path/email_poller_log.txt</email_poller_logname>
+    </PROJECTPATHS>
+    <PROJECTCONFIG>
+        <ORG_TYPE>interface1</ORG_TYPE>
+        <PASS_HISTORY_LIM>12</PASS_HISTORY_LIM>
+        <PASS_EXPIRY_DAYS>30</PASS_EXPIRY_DAYS>
+        <LAST_LOGIN_EXPIRY_DAYS>30</LAST_LOGIN_EXPIRY_DAYS>
+        <INCORRECT_PASS_LIMIT>3</INCORRECT_PASS_LIMIT>
+<!--        <MAX_SESSION_TTL>36000</MAX_SESSION_TTL>-->
+<!--        <APP_INACTIVITY_TIMEOUT>1800</APP_INACTIVITY_TIMEOUT>-->
+        <MAX_SESSION_TTL>36000</MAX_SESSION_TTL>
+        <APP_INACTIVITY_TIMEOUT>1800</APP_INACTIVITY_TIMEOUT>
+        <INCORRECT_PASS_LIMIT_MOBILE>4</INCORRECT_PASS_LIMIT_MOBILE>
+    </PROJECTCONFIG>
+
+    <WHOOSH_INDICES>
+        <INDICES_DIR>/home/nyalazone/ProjectRepo/Moses/moses-dev/whoosh_indices</INDICES_DIR>
+        <EMPLOYEE_INDEX_NAME>employee_idx</EMPLOYEE_INDEX_NAME>
+        <CONTACT_PERSON_INDEX_NAME>contact_person_idx</CONTACT_PERSON_INDEX_NAME>
+        <POTENTIAL_MEMBER_INDEX_NAME>potential_member_idx</POTENTIAL_MEMBER_INDEX_NAME>
+    </WHOOSH_INDICES>
+
+    <DATA_CREATION_FOLDER>
+        <GAP_DATA_JSON>/home/nyalazone/ProjectRepo/Moses/dce/DCE/create_scripts/project_data_creation/gap_data.json</GAP_DATA_JSON>
+        <PORTFOLIO_DATA_LOAD_DIR>/home/nyalazone-01/Desktop/Projects/moses-dev/portfolio_files/updated/</PORTFOLIO_DATA_LOAD_DIR>
+    </DATA_CREATION_FOLDER>
+
+    <FUSIONEXPORT>
+      <HOST>127.0.0.1</HOST>
+      <PORT>1337</PORT>
+   </FUSIONEXPORT>
+    <PROJECT_CONFIG>
+        <CASE>
+            <USE_REQUESTED_DATETIME>True</USE_REQUESTED_DATETIME>
+            <!--Id of 'Mobile App Case' wg 565 on testcrm-->
+            <DEFAULT_MOBILE_CASE_WORKGROUP>565</DEFAULT_MOBILE_CASE_WORKGROUP>
+            <DUMMY_CASE_CONFIG>
+                <DUMMY_EMPLOYEE_ID>185158</DUMMY_EMPLOYEE_ID>
+                <DUMMY_INT_EMPLOYEE_ID>138</DUMMY_INT_EMPLOYEE_ID>
+            </DUMMY_CASE_CONFIG>
+        </CASE>
+        <LEAD>
+            <!--Id of 'Sales Lead Tasks' wg-->
+            <DEFAULT_TASK_WORKGROUP>564</DEFAULT_TASK_WORKGROUP>
+            <DEFAULT_MOBILE_LEAD_WORKGROUP>567</DEFAULT_MOBILE_LEAD_WORKGROUP>
+        </LEAD>
+    </PROJECT_CONFIG>
+    <EMAIL_POLL_CONFIG>
+        <error_folder>test_folder_error_2</error_folder>
+        <discard_folder>test_folder_error_2</discard_folder>
+        <overriding_email>queries@assegai.co.za</overriding_email>
+        <overriding_workgroup>538</overriding_workgroup>
+        <overriding_biz_id>617</overriding_biz_id>
+        <overriding_employee_id>143682</overriding_employee_id>
+    </EMAIL_POLL_CONFIG>
+    <severDomain>asi.co.za</severDomain>>
+    <!--<serverType>prod</serverType>-->
+    <serverType>test</serverType>
+    <EmailServerType>test</EmailServerType>
+    <ipAddress>http://localhost:4200</ipAddress>
+
+    <DCELog>
+        <LogDir>/home/nyalazone/ProjectRepo/Moses/moses_path/</LogDir>
+        <AccessLog>/home/nyalazone/ProjectRepo/Moses/moses_path/access_log/access_log.txt</AccessLog>
+        <LogLevel>DEBUG</LogLevel>
+    </DCELog>
+
+    <LG_APP_CORE_LOGS>
+        <LogDir>/home/nyalazone-01/Desktop/Projects/moses-dev/logs/app_core_log</LogDir>
+        <LogLevel>ERROR</LogLevel>
+    </LG_APP_CORE_LOGS>
+
+    <EMAIL_PARSING_LOGS>
+        <LogDir>/home/nyalazone-01/Desktop/Projects/moses-dev/logs/email_parsing_logger</LogDir>
+        <LogLevel>DEBUG</LogLevel>
+    </EMAIL_PARSING_LOGS>
+
+    <NOTIFICATION_STATIC_TEST_PHONE>1234567890</NOTIFICATION_STATIC_TEST_PHONE>
+
+    <MOBILEFRONTENDSERVER>
+        <host>localhost</host>
+        <port>4201</port>
+        <angular_dir>/home/nyalazone/ProjectRepo/Moses/dce/DCE/appserver/dce/dist</angular_dir>
+        <service_url>http://localhost:4201</service_url>
+     </MOBILEFRONTENDSERVER>
+
+     <REDIS_SESSIONS>
+         <host>localhost</host>
+         <port>6379</port>
+     </REDIS_SESSIONS>
+
+    <MobileApp>
+      <app_version>1.5</app_version>
+    </MobileApp>
+
+    <WebSelfServiceServer>
+        <host>localhost</host>
+        <port>4201</port>
+        <angular_dir>/home/nyalazone/ProjectRepo/Moses/dce/DCE/appserver/dce/dist</angular_dir>
+        <service_url>http://localhost:4201</service_url>
+     </WebSelfServiceServer>
+<APP_Web_Log_Flask>
+    <LogDir>/home/nyalazone/ProjectRepo/Moses/logs/app_web_flask_log/</LogDir>
+    <LogDirArchive>/home/nyalazone/ProjectRepo/Moses/logs/web_log_archive/</LogDirArchive>
+    <LogLevel>INFO</LogLevel>
+</APP_Web_Log_Flask>
+</Leggero>
